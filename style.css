@@ -1,0 +1,69 @@
+*{
+    font-family: "Inter-VariableFont";
+}
+
+body{
+    background-color: rgb(41, 36, 36);
+    text-align: center;
+}
+
+.perfil {
+    margin-top: 180px;
+    padding-bottom: 30px;
+    background-color: rgb(59, 59, 59);
+    width: 400px;
+    position: absolute;
+    left: 35.5%;
+    border-radius: 15px;
+}
+
+img{
+    margin-top: 70px;
+    margin-left: 0%;
+    width: 120px;
+    border-radius: 50%;
+}
+
+button{
+    margin-top: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(78, 77, 77);
+    cursor: pointer;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+}
+
+button:hover{
+    color: rgb(78, 77, 77); 
+    background-color: greenyellow;
+}
+
+@font-face{
+    font-family: "Inter-VariableFont";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.nome{
+    font-size: 28px;
+    color: white; 
+    margin-bottom: 0;
+}
+
+.localizacao{
+    color: greenyellow;
+    margin-top: 5px;
+}
+
+.cargo {
+    color: white;
+}
+
+.attribution{
+    position: absolute;
+    left: 35%;
+    margin-top: 950px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
